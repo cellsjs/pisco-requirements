@@ -1,12 +1,6 @@
 {
   "params": {
     "versions": {
-      "chrome": {
-        "uncheckable" : true
-      },
-      "docker": {
-        "regexp": "n (.*?),"
-      },
       "cordova" : {
         "installer": "npm"
       },
