@@ -7,8 +7,7 @@
       "bower" : {
         "installer": "npm",
         "list": "bower cache list",
-        "cmdInstaller": "bower install",
-        "regexp": "\\#(.*?)\\s"
+        "cmdInstaller": "bower install"
       },
       "npm" : {
         "list": "npm list -g --depth 0",
@@ -29,6 +28,16 @@
       "git": {
         "option": "--version",
         "regexp": "n (.*?)\\n"
+      },
+      "curl": {
+        "option": "--version",
+        "regexp": "curl (.*?) "
+      },
+      "docker": {
+        "regexp": "n (.*?),"
+      },
+      "chrome": {
+        "uncheckable" : true
       }
     }
   }
