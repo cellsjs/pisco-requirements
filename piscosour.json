@@ -38,6 +38,9 @@
       },
       "chrome": {
         "uncheckable" : true
+      },
+      "firefox": {
+        "uncheckable" : true
       }
     }
   }
