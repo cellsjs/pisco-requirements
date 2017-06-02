@@ -34,7 +34,8 @@
         "regexp": "curl (.*?) "
       },
       "docker": {
-        "regexp": "n (.*?),"
+        "regexp": "n (.*?),",
+        "uncheckable" : true
       },
       "chrome": {
         "uncheckable" : true
